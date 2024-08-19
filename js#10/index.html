@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="javascript :void(0)" onclick="var greet='hi'; alert (greet)"> click me</a>
+    <h1>MOBILE IMAGES</h1>
+    <img id="MOBILE" src="p1.jpg  " onclick="showAlert('Thank you for purchasing')" alt="">
+    
+    <img id="Q" src="p2.jpg" onclick="showAlert('Thank you for purchasing')" alt="">
+    
+   
+    
+    <img id="B" src="p4.jpg  " onclick="showAlert('Thank you for purchasing')" alt="">
+    <h2>STUDENTS RECORD</h2>
+    <table id="tab">
+        <tr>
+            <th>INDEX</th>
+            <th>NAME</th>
+            <th>CLASS</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>John</td>
+            <td>7</td>
+            <td> <button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Cloe</td>
+            <td>9</td>
+            <td> <button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Dom</td>
+            <td>5</td>
+            <td> <button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Robort</td>
+            <td>8</td>
+            <td> <button onclick="deleteRow(this)">Delete</button></td>
+
+        </tr>
+    </table>
+    <img onmouseout="src='tom2.jpg'" alt=""  onmouseover="src='tom.jpg'" src="tom.jpg">
+    
+    <button onclick="Increase()">Increase</button>
+    <span id="counter">
+        0</span>
+    <button onclick="Decrease()">Decrease</button>
+    
+    <script src="app.js"></script>
+</body>
+</html>

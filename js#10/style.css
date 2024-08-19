@@ -1,0 +1,18 @@
+#MOBILE{
+    border: 2px solid blue;
+
+}
+#Q{
+    border: 2px solid blue;
+}
+#B{
+    border: 2px solid blue;
+}
+#tab{
+    border: 3px solid black;
+   
+}
+th ,td{
+    border: 3px solid black;
+    padding: 10px;
+}
